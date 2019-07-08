@@ -4,13 +4,11 @@ namespace ConsoleApp1
 {
     class Program
     {
-        private static int Som(int number1, int number2)
-        {
-            return number1 + number2;
-        }
+        
         static void Main(string[] args)
         {
-            Console.WriteLine(Som(1,2)  );
+            Console.WriteLine(MathF.Max(5,6));
+            Console.ReadLine();
         }
     }
 }
