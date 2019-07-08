@@ -6,8 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MathF.Max(5,6));
-            Console.ReadLine();
+            Console.WriteLine(Som(1,2)  );
         }
     }
 }
