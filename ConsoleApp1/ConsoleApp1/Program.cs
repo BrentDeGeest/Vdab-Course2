@@ -4,11 +4,13 @@ namespace ConsoleApp1
 {
     class Program
     {
+        private static int Som(int number1, int number2)
+        {
+            return number1 + number2;
+        }
         static void Main(string[] args)
         {
-            string Naam = "Naam";
-            Console.WriteLine($"Hello {Naam}!");
-            Console.ReadLine();
+            Console.WriteLine(Som(1,2)  );
         }
     }
 }
