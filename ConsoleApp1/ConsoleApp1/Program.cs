@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Som(1,2)  );
+            Console.WriteLine(1 + 2);
         }
     }
 }
