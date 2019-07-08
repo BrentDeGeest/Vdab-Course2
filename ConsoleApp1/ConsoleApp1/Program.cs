@@ -10,7 +10,7 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(Som(1,2)  );
+            Console.WriteLine("som 1 + 2: " + Som(1,2)  );
         }
     }
 }
